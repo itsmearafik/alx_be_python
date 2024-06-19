@@ -3,8 +3,8 @@
 number1 = 10
 number2 = 5
 
-sum = number1 + number2
-sub = number2 + number1
+sum = number2 + number1
+sub = number2 - number1
 mult = number1 * number2
 
 print(f"Addition of {number1} and {number2} is {sum}") 
