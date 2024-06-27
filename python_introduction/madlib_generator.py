@@ -10,3 +10,11 @@ Task to complete project
 
 '''
 
+verb_placeholder = input("Enter an example of a verb: ")
+noun_placeholder = input("Enter an example of noun: ")
+
+print("On a beautiful " + verb_placeholder + " day, I went to the zoo. I saw a funny " 
+      + noun_placeholder + "monkey swinging from the trees. Then, I spotted a majestic " 
+      + verb_placeholder +" lion lounging in the, sun.  What a wild and " 
+      + noun_placeholder + " experience!")
+
