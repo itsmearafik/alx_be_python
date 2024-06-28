@@ -17,4 +17,17 @@ match day:
     case "saturday" | "sunday":
         print("Weekend vibes!")
     case _:
-        print("Invalid day entered. ")
+        print("Invalid day entered. ") 
+
+# using the match case statement to match against data types 
+
+value = input("Enter a value (number or string): ")
+
+match value:
+    case int():
+        print("You entered an integer: ", value)
+    case str():
+        print("You entered a string: ", value)
+    case _:
+        print("Invalid datatype.")
+
