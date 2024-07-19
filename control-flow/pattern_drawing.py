@@ -1,25 +1,24 @@
-# Utilize while loops & nested for loops to draw a text-based pattern 
+'''
+Objective: Utilize while loops and nested for loops to draw a simple text-based pattern.
+'''
 
-# pattern_size = int(input("Enter the size of the pattern: "))
+# Prompt the user to enter the size of the pattern 
+size = int(input("Enter the size of the pattern: "))
 
-drawing = 0
+# Ensure the user entered a positive integer
+if size <= 0:
+    print("Please enter a positive integer.")
+else:
+    # initialize the row counter
+    row = 0
 
-# while drawing != pattern_size:
-#     for x in range(1,pattern_size):
-#         print("*", end="")
+    # use a while loop to iterate through each row 
+    while row < size:
+        # use a for loop to print asterisks in each row 
+        for col in range(size):
+            print("*", end="")
+            # Print a new line character to move to the next row 
+            print()
+            row += 1
 
-# cast the user input to int 
-
-# iterate using while loop, to check number of rows
-
-# use for loop to print symbol in a row 
-rows = "*"
-pattern_size = int(input("Enter the size of the pattern:"))
-
-for i in range(pattern_size):
-    for j in range(pattern_size):
-        if j <= i:
-            print(rows, end=' ')
-        else:
-            print(rows, end=' ')
-    print()
+            
