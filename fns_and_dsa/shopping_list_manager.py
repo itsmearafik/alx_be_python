@@ -2,6 +2,7 @@
 Objective: Utilize Python lists to create a simple shopping list manager that allows users to add items, view the current list, and remove items.
 """
 
+# definition of the shopping_list_manager display_menu
 def display_menu():
     print("Shopping List Manager")
     print("1. Add Item")
@@ -9,13 +10,15 @@ def display_menu():
     print("3. View List")
     print("4. Exit")
 
+
+# implementation of the shopping_list_manager function 
 def main():
     shoppping_list = []
     while True:
         display_menu()
         choice = input("Enter your choice: ")
 
-        if choice == "1":
+        if choice == '1':
             item = input("Enter the item to add: ")
             shoppping_list.append(item)
             print(f"'{item}' has been added to the list.")
