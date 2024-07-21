@@ -8,7 +8,7 @@ class SimpleCalculator:
         # return the addition of a and b 
         return a + b 
     
-    # Substraction operation 
+    # Subtraction operation 
     def subtract(self, a, b):
         # return the difference of a and b
         return a - b 
