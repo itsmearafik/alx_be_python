@@ -1,3 +1,7 @@
+""" 
+Objective:  Deepen your understanding of inheritance and composition in Python by creating a system that models a library with different types of books.
+"""
+
 class Book:
     def __init__(self, title, author):
         self.title = title
